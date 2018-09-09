@@ -1,0 +1,8 @@
+---
+applications:
+ - name: SimpleToDo
+   random-route: true
+   path: target/ZTI_SimpleToDo-0.0.1-SNAPSHOT.war
+   memory: 700M
+   instances: 1
+   buildpack: java_buildpack

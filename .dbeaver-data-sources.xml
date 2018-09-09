@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="postgresql_generic-165a5baf0e9-22781b99fd081a6d" provider="generic" driver="postgresql_generic" name="PostgreSQL (Legacy) - grwstmhn" save-password="true" read-only="false">
+		<connection host="dumbo.db.elephantsql.com" port="5432" server="" database="grwstmhn" url="jdbc:postgresql://dumbo.db.elephantsql.com:5432/grwstmhn" user="grwstmhn" password="RBYFNmx6UjUXAw4xNDIVdDY6HWN8FlU/Ai1GFTwsVzJ35w==" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="loginTimeout" value="20"/>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="implementation" value="jsch"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
